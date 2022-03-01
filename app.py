@@ -43,7 +43,7 @@ previous hours (7 days) of hashrate️️'''
 
 
 def hashrate() -> str:
-    link = 'https://api.nanopool.org/v1/eth/avghashratelimited/0x4fcca869dd1dbadd57dfbbcb317410e39a0b0745/Nikaragua/168'
+    link = f'https://api.nanopool.org/v1/eth/avghashratelimited/{nanopool_id}/{worker_id}/168'
     response = str(round(requests.get(link).json()['data'], 2))
     return response
 
