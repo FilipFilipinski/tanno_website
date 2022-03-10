@@ -20,7 +20,7 @@ Change nanopool_id, worker_id to yours, then
 ```python3 
 # for the website server start 
 python3 app.py
-#and after that your application runs at http://127.0.0.1:5000/
+# and after that your application runs at http://127.0.0.1:5000/
 
 # To update data in the database
 python3 data.py
