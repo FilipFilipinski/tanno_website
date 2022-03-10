@@ -12,8 +12,7 @@ def create():
     c.execute("INSERT INTO nano VALUES ('day',1.2)")
     conn.commit()
     conn.close()
-
-
+#
 def start():
     while True:
         try:
