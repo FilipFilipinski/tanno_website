@@ -24,7 +24,7 @@ python3 app.py
 
 # To update data in the database
 python3 data.py
-'''
+```
 
 ## Contributing
 Pull requests are welcome. And that's all, see you
