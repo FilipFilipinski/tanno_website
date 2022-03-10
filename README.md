@@ -23,6 +23,8 @@ python3 app.py
 # To update data in the database
 python3 data.py
 ```
+and then go to: 
+[http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 ## Contributing
 Pull requests are welcome. And that's all, see you
