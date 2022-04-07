@@ -12,7 +12,8 @@ def create():
     c.execute("INSERT INTO nano VALUES ('day',1.2)")
     conn.commit()
     conn.close()
-#
+
+
 def start():
     while True:
         try:
@@ -33,7 +34,7 @@ def start():
 if __name__ == '__main__':
     try:
         create()
-        print("im here")
+        print("Log, table create")
     except:
         pass
     start()

@@ -67,8 +67,8 @@ def main():
     c = conn.cursor()
     c.execute("SELECT * FROM nano")
     page = c.fetchall()
-    return render_template('index.html', my_eth=page[0][1], month=page[1][1], day=page[2][1])
+    return render_template('index.html', my_eth=page[0][1], month=page[1][1], day=page[2][1], id=nanopool_id)
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='127.0.0.1', port=5000)
